@@ -120,7 +120,7 @@ header {
     height: 450px;
 }
 .s2-p1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 48px;
     font-weight: 700;
     color: #1a3c2e;
@@ -183,4 +183,45 @@ header {
     display: flex;
     justify-content: center;
     margin: 50px;
+}
+
+.main3-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 190px;
+}
+.s3-image {
+    width: 260px;
+    height: 310px;
+}
+.s3-p1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1a3c2e;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.s3-aaa {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.s3-card {
+    margin-bottom: 50px;
+}
+.main3 {
+    text-decoration: none;
+}
+.a3 {
+    color: #1a4328;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 30px;
 }
