@@ -112,6 +112,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     padding: 0 200px;
+    gap: 40px;
+    
 }
 .s2-image {
     width: 350px;
@@ -124,6 +126,8 @@ header {
     color: #1a3c2e;
     display: flex;
     justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 .s2-p2 {
     font-family: 'Montserrat', sans-serif;
@@ -132,4 +136,51 @@ header {
     color: #1a3c2e;
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
+}
+.s2-prices {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    font-weight: 100;
+    gap: 30px;
+}
+.star {
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+}
+.stars {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.s2-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.s2-button {
+    background: transparent;
+    border: 2px solid #1a3c2e;
+    border-radius: 2px;
+    padding: 12px 32px;
+    font-family: 'Poppins', sans-serif;
+    width: 160px;
+    height: 50px;
+}
+.s2-arrow {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.s2-div-button {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
 }
