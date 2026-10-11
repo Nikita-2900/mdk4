@@ -252,7 +252,7 @@ header {
     display: flex;
     flex-direction: row;
     background-color: rgb(194, 239, 212);
-    padding: 0 100px 0 50px;
+    padding: 0 70px 0 50px;
     justify-content: space-between;
 }
 .s4-image {
@@ -305,6 +305,7 @@ header {
     width: 180px;
     height: 55px;
 }
+
 /* s5 */
 .s5-p1 {
     font-family: 'Roboto Slab', serif;
@@ -362,3 +363,97 @@ header {
     margin: 0 10px 30px;
 }
 
+/* s6 */
+.s6-p1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1a3c2e;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.s6-cards {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 70px;
+    padding: 0 190px;
+}
+.s6-card {
+    background-color: #ffffff;
+    padding: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.s6-card2 {
+    background-color: #bcebce;
+    box-shadow: none;
+    padding: 10px 30px 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.s6-q {
+    font-family: 'Arial Rounded MT Bold', serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #1a3c2e;
+    line-height: 1;
+    margin-bottom: 15px;
+    height: 30px;
+}
+.s6-h3 {
+    font-family: 'Roboto Serif', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a3c2e;
+    margin-bottom: 15px;
+}
+.s6-p2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #333333;
+    flex-grow: 1;
+}
+.s6-b1 {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    color: #1a3c2e;
+}
+.s6-b2 {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 4px;
+    background-color: #bcebce;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    color: #1a3c2e;
+}
+.s6-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 70px;
+}
