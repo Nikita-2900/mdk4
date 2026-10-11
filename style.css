@@ -457,3 +457,145 @@ header {
     gap: 50px;
     margin-bottom: 70px;
 }
+
+/* footer */
+footer {
+    background-color: #224f34;
+    width: 100%;
+    padding: 50px 40px 30px;
+    color: #ffffff;
+}
+.f-rivo {
+    flex: 1;
+    min-width: 200px;
+}
+
+.f-rivo h4 {
+    font-family: 'Roboto Serif', serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.f-icon {
+    width: 20px;
+    height: 20px;
+}
+.f-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto 80px;
+    flex-wrap: wrap;
+}
+.f-icons {
+    display: flex;
+    gap: 15px;
+}
+.f-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+.f-logo {
+    font-family: 'Elephant', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+.f-links {
+    flex: 1;
+    min-width: 150px;
+}
+.f-links h4{
+    font-family: 'Roboto Serif', serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+.f-links li {
+    margin-bottom: 12px;
+}
+.f-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.f-links a {
+    font-family: 'Poppins', sans-serif;
+    color: #bcebce;;
+    text-decoration: none;
+    font-size: 14px;
+}
+.f-stay {
+    flex: 1.5;
+    min-width: 250px;
+}
+.f-stay h4 {
+    font-family: 'Roboto Serif', serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.f-b {
+    display: flex;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    max-width: 400px;
+    height: 45px;
+}
+.f-b input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 0 15px;
+    color: #ffffff;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.f-b button {
+    background-color: #bcebce;
+    color: #1a3c2e;
+    border: none;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+.f-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.f-bottom::before {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 1px;
+    background-color: #A3F3BE;
+}
+.f-legal {
+    display: flex;
+    gap: 30px;
+    margin-left: auto; 
+}
+.f-legal a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
